@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+</head>
+<!-- stackzer-ui css file -->
+<link rel="stylesheet" href="https://stackzer.netlify.app/css/main.css"/> 
+
+
+<link rel="stylesheet" href="/css/product.css">
+<body>
+ 
+   <!-- navbar start -->
+   <div class="navbar-section">
+    <nav class="navbar p-0p5 flex m-0">
+        <div class="brand-name m-0p5 fs-1p5">Naturewell</div>
+
+        <div class="search-bar my-0p5 mx-auto">
+            <input class="search-input fs-1p2 px-1 py-0 border-none" type="text" placeholder="Search for products">
+            <button class=" hy-search-btn absolute border-none" type="submit">
+                <i class="fas fa-search fs-1p2" title="search"></i>
+              </button>
+        
+
+        </div>
+        <div class="account-basket-btn my-0 mx-1 absolute">
+            <a href="/pages/wishlist.html">
+                <i class="far fa-heart m-auto"></i>
+            </a>
+            <a href="/pages/login.html">
+
+                <button class="nav-btn fs-1p2 p-0p5 m-0p5 border-none">Sign up | Log In</button>
+            </a>
+            <a href="/pages/cartpage.html">
+
+                <button class="nav-btn fs-1p2 p-0p5 m-0p5 border-none">Cart 
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </a>
+
+            
+
+        </div>
+    </nav>
+
+   </div> 
+   <!-- navbar end -->
+
+<!-- filter start -->
+<div class="filter-container">
+    <header class="filter-header">
+        <h1>Filter</h1>
+        <a class=""href="">Clear</a>
+    </header>
+    <div class="pricing-input-slider">
+        <h2>Price</h2>
+        <input type="range" max="5000" min="0" step="1000" list="tickmarks">
+        <datalist id="tickmarks">
+            <option class="slider-txt"value="0" label="0"></option>
+            <option value="1000" label="10"></option>
+            <option value="2000" label="2K"></option>
+            <option value="3000" label="3K"></option>
+            <option value="4000" label="4K"></option>
+        </datalist>
+    </div>
+    <!-- category -->
+    <div class="filter-category">
+        <h2>Category</h2>
+        <article class="filter-category-list">
+            <input type="checkbox">
+            <label for="">Health & Supplements</label>
+
+
+        </article>
+        <article class="filter-category-list">
+            <input type="checkbox">
+            <label for="">Multi-Vitamins</label>
+
+        </article>
+        <article class="filter-category-list">
+            <input type="checkbox">
+            <label for="">Juices</label>
+
+        </article>
+        <article class="filter-category-list">
+            <input type="checkbox">
+            <label for="">Peanut Butter</label>
+
+        </article>
+
+    </div>
+    <!-- ratings -->
+    <div class="ratings-category">
+        <h2>Ratings</h2>
+        <article class="ratings-category-list">
+            <input type="radio">
+            <label for="">4 Stars & above</label>
+
+
+        </article>
+        <article class="ratings-category-list">
+            <input type="radio">
+            <label for="">3 Stars & above</label>
+
+        </article>
+        <article class="ratings-category-list">
+            <input type="radio">
+            <label for="">2 Stars & above</label>
+
+        </article>
+        <article class="ratings-category-list">
+            <input type="radio">
+            <label for="">1 Stars & above</label>
+
+        </article>
+
+    </div>
+
+    <!-- sort by -->
+    <div class="sort-category">
+        <h2>Sort by</h2>
+        <article class="sort-category-list">
+            <input type="radio">
+            <label for="">Price-Low to High</label>
+
+
+        </article>
+        <article class="sort-category-list">
+            <input type="radio">
+            <label for="">Price-High to Low</label>
+
+        </article>
+
+    </div>
+
+
+</div>
+<!-- filter ends -->
+
+<!-- showing all products ---- Start -->
+
+<div class="showing-product-container">
+    <h1>Showing all Products</h1>
+
+    <div class="products-card-list">
+        <div class="card card-vertical product-card">
+            
+              <button class="card-icon-btn ml-auto">
+                <i class="far fa-heart m-auto"></i>
+                </button>
+            <img class="card-vertical-img" src="/assets/image/apple cider vinegar-Rec bottle 1.jpg" alt="..." />
+    
+            <h1 class="card-head">Healthy by nature Peanut Butter</h1>
+            <!-- <p class="card-text">
+            Peanut Butter is made up from the finest grade, fresh and nutritious Peanuts from an ISO 22000 Certified and FSSAI approved Factory.
+         
+            </p> -->
+    
+            <div class="card-vertical-footer">
+                <span class="current-price">
+                <strong>₹299</strong>
+                </span>
+                <span class="earlier-price">₹599</span>
+                <span class="pct-off">50% off</span>
+            </div>
+            <button class="btn btn-primary-solid">Add to cart</button>
+        </div>
+        <div class="card card-vertical product-card">
+            <!-- <div class="card-vertical-header">
+                <span class="status-badge">In stock </span> -->
+    
+                <!-- <button class="card-icon-btn ml-auto">
+                <i class="far fa-heart m-auto"></i>
+                </button>
+            </div> --> 
+            <button class="card-icon-btn ml-auto">
+                <i class="far fa-heart m-auto"></i>
+                </button>
+            <img class="card-vertical-img" src="/assets/image/apple cider vinegar round 1.jpg" alt="..." />
+    
+            <h1 class="card-head">Healthy by nature Peanut Butter</h1>
+            <!-- <p class="card-text">
+            Peanut Butter is made up from the finest grade, fresh and nutritious Peanuts from an ISO 22000 Certified and FSSAI approved Factory.
+         
+            </p> -->
+    
+            <div class="card-vertical-footer">
+                <span class="current-price">
+                <strong>₹299</strong>
+                </span>
+                <span class="earlier-price">₹599</span>
+                <span class="pct-off">50% off</span>
+            </div>
+            <button class="btn btn-primary-solid">Add to cart</button>
+        </div>
+        <div class="card card-vertical product-card">
+            
+            <button class="card-icon-btn ml-auto">
+                <i class="far fa-heart m-auto"></i>
+                </button>
+            <img class="card-vertical-img" src="/assets/image/Deep Sea Fish oil 1.jpg" alt="..." />
+    
+            <h1 class="card-head">Healthy by nature Peanut Butter</h1>
+            
+    
+            <div class="card-vertical-footer">
+                <span class="current-price">
+                <strong>₹299</strong>
+                </span>
+                <span class="earlier-price">₹599</span>
+                <span class="pct-off">50% off</span>
+            </div>
+            <button class="btn btn-primary-solid">Add to cart</button>
+        </div>
+        <div class="card card-vertical product-card">
+            
+            <button class="card-icon-btn ml-auto">
+                <i class="far fa-heart m-auto"></i>
+                </button>
+            <img class="card-vertical-img" src="/assets/image/whey protein green 500 g 1.jpg" alt="..." />
+    
+            <h1 class="card-head">Healthy by nature Peanut Butter</h1>
+            
+            <div class="card-vertical-footer">
+                <span class="current-price">
+                <strong>₹299</strong>
+                </span>
+                <span class="earlier-price">₹599</span>
+                <span class="pct-off">50% off</span>
+            </div>
+            <button class="btn btn-primary-solid">Add to cart</button>
+        </div>
+        <div class="card card-vertical product-card">
+            <button class="card-icon-btn ml-auto">
+                <i class="far fa-heart m-auto"></i>
+                </button>
+            <img class="card-vertical-img" src="/assets/image/CLA 1000 1.jpg" alt="..." />
+    
+            <h1 class="card-head">Healthy by nature</h1>
+            
+            <div class="card-vertical-footer">
+                <span class="current-price">
+                <strong>₹299</strong>
+                </span>
+                <span class="earlier-price">₹599</span>
+                <span class="pct-off">50% off</span>
+            </div>
+            <button class="btn btn-primary-solid">Add to cart</button>
+        </div>
+        <div class="card card-vertical product-card">
+            
+            <button class="card-icon-btn ml-auto">
+                <i class="far fa-heart m-auto"></i>
+                </button>
+            <img class="card-vertical-img" src="/assets/image/promuscleblaze.jpg" alt="..." />
+    
+            <h1 class="card-head">Healthy by nature Peanut Butter</h1>
+            
+            <div class="card-vertical-footer">
+                <span class="current-price">
+                <strong>₹299</strong>
+                </span>
+                <span class="earlier-price">₹599</span>
+                <span class="pct-off">50% off</span>
+            </div>
+            <button class="btn btn-primary-solid">Add to cart</button>
+        </div>
+        <div class="card card-vertical product-card">
+          
+            <button class="card-icon-btn ml-auto">
+                <i class="far fa-heart m-auto"></i>
+                </button>
+            <img class="card-vertical-img" src="/assets/image/peanut butter natural Crunchy  unsweetened 1.jpg" alt="..." />
+    
+            <h1 class="card-head">Healthy by nature Peanut Butter</h1>
+            
+    
+            <div class="card-vertical-footer">
+                <span class="current-price">
+                <strong>₹299</strong>
+                </span>
+                <span class="earlier-price">₹599</span>
+                <span class="pct-off">50% off</span>
+            </div>
+            <button class="btn btn-primary-solid">Add to cart</button>
+        </div>
+    </div>
+</div>
+    
+
+<!-- adding font awesome link  -->
+<script src="https://kit.fontawesome.com/78fe78e614.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
